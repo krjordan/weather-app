@@ -1,6 +1,7 @@
 html {
 	background-image: url('http://icons.wunderground.com/data/wximagenew/d/Drifter50/655-awesome.jpg'); /* Default */
 	background-size: cover;
+	background-repeat: no-repeat;
 	color: #f9f9f9;
 	font-family: 'Oxygen', sans-serif;
 }
