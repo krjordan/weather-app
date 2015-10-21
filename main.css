@@ -1,0 +1,80 @@
+html {
+	background-image: url('http://icons.wunderground.com/data/wximagenew/d/Drifter50/655-awesome.jpg'); /* Default */
+	background-size: cover;
+	color: #f9f9f9;
+	font-family: 'Oxygen', sans-serif;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+h2 {
+	padding: 0.5em 1em;
+	font-size: 2em;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 5px;
+	margin: 2em 0;
+}
+form {
+	display: flex;
+	justify-content: center;
+}
+input {
+	flex: 1;
+	border-right: 0;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 1.125em;
+}
+button {
+	background-color: #00F;
+	color: #fff;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 1.125em;
+	cursor: pointer;
+}
+input, button {
+	border: 1px solid rgba(147, 128, 108, 0.25);
+	padding: 0.5em 0.75em;
+	border-radius: 2px 0 0 2px;
+}
+.weather-container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 5px;
+	margin-top: 3.125em;
+}
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.250em;
+	padding: 1.563em;
+
+}
+.wrapper div {
+	padding: 1.75em 2.75em;
+}
+.temp {
+	font-size: 1.875em;
+	font-weight: bold;
+	cursor: help;
+}
+#city {
+	cursor: help;
+}
+#icon {
+	font-size: 4.688em;
+}
+#humidity {
+	font-size: 1.5em;
+	cursor: help;
+}
+#wind {
+	font-size: 2.5em;
+	cursor: help;
+}

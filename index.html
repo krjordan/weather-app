@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Local Weather App</title>
+	<link href='https://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="weather-icons.css">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="container">
+
+		<h2>Local Weather App</h2>
+		<form>
+			<input type="text" id="zip" placeholder="Enter Zipcode">
+			<button>Go</button>
+		</form>
+
+		<div class="weather-container">
+			<div class="wrapper">
+				<div><i class="wi" id="icon"></i></div>
+				<div class="temp" title="Temperature">
+					<i class="wi wi-thermometer"></i>
+					&nbsp;<span id="temp"></span>&nbsp;
+					<i class="wi wi-fahrenheit"></i>
+				</div>
+			</div>
+			<div class="wrapper">
+				<div id="city" title="City"></div>
+				<div id="description"></div>
+				<div class="wind" title="Wind Speed"><i id="wind" class="wi"></i></div>
+				<div class="humidity" title="Humidity"><span id="humidity"></span>&nbsp;<i class="wi wi-humidity"></i></div>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
